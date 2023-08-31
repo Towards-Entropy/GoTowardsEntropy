@@ -1,0 +1,48 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Directories
+_obj
+_test
+
+# Output of the go build
+*.out
+
+# Dependency directories
+vendor/
+
+# IDE files
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store  # macOS
+*.bak      # Windows
+*.tmp      # Windows
+*.swp      # Vim
+*~         # Emacs
+
+# Go module cache
+go.sum
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Logs
+*.log
+
+# Coverage
+*.cover
+
+# Notes
+TODO.md

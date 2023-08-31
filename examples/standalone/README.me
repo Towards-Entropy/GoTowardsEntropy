@@ -1,0 +1,15 @@
+# GoTowardsEntropyExample: Standalone Compression
+
+This is a simple example of how you can use GoTowardsEntropy to compress data with dictionaries.
+
+This script simply compresses all files in `../../testdata/files/supply_chain` using the "supply_chain" dictionary from
+`../../testdata/dictionaries/enwik8.dict`. It then compares that compressed result with compression using zstd at the
+same settings, but without the dictionary.
+
+You can easily modify this script to test compression ratios of your own data. Simply swap out the data files and the
+dictionary.
+
+## Running
+
+`go run .`
+
