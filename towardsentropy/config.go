@@ -55,7 +55,7 @@ var (
 )
 
 var defaultConfig = Config{
-	CompressionLevel:    IntPtr(1),
+	CompressionLevel:    IntPtr(5),
 	BufferSize:          IntPtr(1024),
 	DictionaryDirectory: StrPtr("./dictionaries"),
 	PreflightWrites:     BoolPtr(true),
